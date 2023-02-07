@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
 }
 
 fun test(){
-    Log.i("camvenli","This is ")
-    Log.i("camvenli","commit 2")
+    Log.i("camvenli","This is commit 1")
+    Log.i("camvenli","This is commit 2")
 }
 
 fun test1(){
