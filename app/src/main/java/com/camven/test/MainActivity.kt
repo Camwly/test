@@ -14,4 +14,5 @@ class MainActivity : AppCompatActivity() {
 
 fun test(){
     Log.i("camvenli","This is commit 1")
+    Log.i("camvenli","This is commit 2")
 }
