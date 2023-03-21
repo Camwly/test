@@ -23,6 +23,15 @@
                 android:gravity="center"
                 android:textColor="@color/white"
                 android:background="#00ff00"/>
+
+            <TextView
+                android:id="@+id/tv_test_pag"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="测试pag特性"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="#ff0000"/>
         </LinearLayout>
     </ScrollView>
 

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.camven.test.databinding.ActivityMainBinding
+import com.camven.test.pag.TestPagActivity
 import com.camven.test.view.requestlayout.TestRequestLayoutActivity
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +16,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding?.root)
         binding?.tvRequestLayout?.setOnClickListener {
             val intent = Intent(this, TestRequestLayoutActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding?.tvTestPag?.setOnClickListener {
+            val intent = Intent(this, TestPagActivity::class.java)
             startActivity(intent)
         }
     }
